@@ -1,0 +1,47 @@
+State exception type (either "checked" or "uncheck") of the following exception classes.
+
+1. ArithmeticException
+==> uncheck
+
+2. ArrayIndexOutOfBoundsException
+==> uncheck
+
+3. ClassCastException
+==> uncheck
+
+4. ClassNotFoundException
+==> checked
+
+5. Exception
+==> checked
+
+6. IllegalArgumentException
+==> uncheck
+
+7. IndexOutOfBoundsException
+==> uncheck
+
+8. InstantiationException
+==> checked
+
+9. NoSuchFieldException
+==> checked
+
+10. NoSuchMethodException
+==> checked
+
+11. NullPointerException
+==> uncheck
+
+12. NumberFormatException
+==> uncheck
+
+13. RuntimeException
+==> uncheck
+
+14. SecurityException
+==> uncheck
+
+15. StringIndexOutOfBoundsException
+==> uncheck
+

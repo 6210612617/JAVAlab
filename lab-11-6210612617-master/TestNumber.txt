@@ -1,0 +1,52 @@
+Answer the following questions.
+
+1. Why do the following two lines of code compile but cause a runtime error?
+
+Number numberRef = new Integer(0);
+Double doubleRef = (Double)numberRef;
+
+Ans:
+
+
+
+
+2. Why do the following two lines of code compile but cause a runtime error?
+
+Number[] numberArray = new Integer[2];
+numberArray[0] = new Double(1.5);
+
+Ans: numberRef is an  Integer not Double
+
+
+
+
+3. What is wrong in the following code?
+
+public class Test {
+    public static void main(String[] args) {
+        Number x = new Integer(3);
+        System.out.println(x.intValue());
+        System.out.println(x.compareTo(new Integer(4)));
+    }
+}
+
+Ans: numberArray[0] is Integer type
+
+
+
+
+4. What is wrong in the following code?
+
+public class Test {
+    public static void main(String[] args) {
+        Number x = new Integer(3);
+        System.out.println(x.intValue());
+        System.out.println((Integer)x.compareTo(new Integer(4)));
+    }
+}
+
+Ans: x not have compareTo method.
+
+
+
+
